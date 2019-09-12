@@ -46,31 +46,30 @@
 
 
 #A:checked~.togglebox label span:nth-child(1) {
-    transform: rotate(0deg);
-    top: 5px;
-    height: 2px;
-    background-color: red;
+    display: none;
 }
 
 #A:checked~.togglebox label span:nth-child(2) {
-    transform: rotate(90deg);
+    transform: rotate(-60deg);
     top: 25px;
-    left: -15px;
+    left: -5px;
     height: 2px;
     background-color: red;
 }
 
 #A:checked~.togglebox label span:nth-child(3) {
-    transform: rotate(90deg);
+    transform: rotate(60deg);
     top: 25px;
-    left: 25px;
+    left: 15px;
     height: 2px;
     background-color: red;
 }
 
 #A:checked~.togglebox label span:nth-child(4) {
     transform: rotate(0deg);
-    top: 25px;
+    left: 10px;
+    top: 31px;
+    width: 30px;
     height: 2px;
     background-color: red;
 }
@@ -123,7 +122,9 @@
 
 #B:checked~.togglebox label span:nth-child(1) {
     transform: rotate(0deg);
+    left: 10px;
     top: 5px;
+    width: 30px;
     height: 2px;
     background-color: red;
 }
@@ -131,7 +132,7 @@
 #B:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 25px;
-    left: -15px;
+    left: -10px;
     height: 2px;
     background-color: red;
 }
@@ -139,13 +140,15 @@
 #B:checked~.togglebox label span:nth-child(3) {
     transform: rotate(90deg);
     top: 25px;
-    left: 25px;
+    left: 20px;
     height: 2px;
     background-color: red;
 }
 
 #B:checked~.togglebox label span:nth-child(4) {
     transform: rotate(0deg);
+    width: 30px;
+    left: 10px;
     top: 25px;
     height: 2px;
     background-color: red;
@@ -153,6 +156,8 @@
 
 #B:checked~.togglebox label span:nth-child(5) {
     transform: rotate(0deg);
+    width: 30px;
+    left: 10px;
     top: 45px;
     height: 2px;
     background-color: red;
@@ -203,6 +208,8 @@
 #C:checked~.togglebox label span:nth-child(1) {
     transform: rotate(0deg);
     top: 5px;
+    left: 10px;
+    width: 30px;
     height: 2px;
     background-color: red;
 }
@@ -210,7 +217,7 @@
 #C:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 25px;
-    left: -15px;
+    left: -10px;
     height: 2px;
     background-color: red;
 }
@@ -221,6 +228,8 @@
 
 #C:checked~.togglebox label span:nth-child(4) {
     transform: rotate(0deg);
+    width: 30px;
+    left: 10px;
     top: 45px;
     height: 2px;
     background-color: red;
@@ -273,9 +282,10 @@
 
 
 #D:checked~.togglebox label span:nth-child(1) {
-    transform: rotate(30deg);
-    top: 15px;
-    left: 1;
+    transform: rotate(15deg);
+    top: 10px;
+    left: 11px;
+    width: 30px;
     height: 2px;
     background-color: red;
 }
@@ -283,15 +293,24 @@
 #D:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 25px;
-    left: -13px;
+    left: -9px;
     height: 2px;
     background-color: red;
 }
 
 #D:checked~.togglebox label span:nth-child(3) {
-    transform: rotate(-30deg);
-    top: 35px;
-    left: 1;
+    transform: rotate(-15deg);
+    top: 40px;
+    width: 30px;
+    left: 11px;
+    height: 2px;
+    background-color: red;
+}
+#D:checked~.togglebox label span:nth-child(4) {
+    transform: rotate(90deg);
+    top: 25px;
+    width: 24px;
+    left: 28px;
     height: 2px;
     background-color: red;
 }
@@ -341,6 +360,8 @@
 #E:checked~.togglebox label span:nth-child(1) {
     transform: rotate(0deg);
     top: 5px;
+    left: 10px;
+    width: 30px;
     height: 2px;
     background-color: red;
 }
@@ -348,7 +369,7 @@
 #E:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 25px;
-    left: -15px;
+    left: -10px;
     height: 2px;
     background-color: red;
 }
@@ -356,14 +377,17 @@
 #E:checked~.togglebox label span:nth-child(3) {
     transform: rotate(0deg);
     top: 45px;
-    left: 5px;
+    left: 10px;
+    width: 30px;
     height: 2px;
     background-color: red;
 }
 
 #E:checked~.togglebox label span:nth-child(4) {
     transform: rotate(0deg);
+    left: 10px;
     top: 25px;
+    width: 30px;
     height: 2px;
     background-color: red;
 }
@@ -417,6 +441,8 @@
 #F:checked~.togglebox label span:nth-child(1) {
     transform: rotate(0deg);
     top: 5px;
+    left: 10px;
+    width: 30px;
     height: 2px;
     background-color: red;
 }
@@ -424,7 +450,7 @@
 #F:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 25px;
-    left: -15px;
+    left: -10px;
     height: 2px;
     background-color: red;
 }
@@ -432,7 +458,8 @@
 #F:checked~.togglebox label span:nth-child(3) {
     transform: rotate(0deg);
     top: 25px;
-    left: 5px;
+    width: 30px;
+    left: 10px;
     height: 2px;
     background-color: red;
 }
@@ -493,6 +520,8 @@
 
 #G:checked~.togglebox label span:nth-child(1) {
     transform: rotate(0deg);
+    width: 30px;
+    left: 10px;
     top: 5px;
     height: 2px;
     background-color: red;
@@ -502,7 +531,7 @@
 #G:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 25px;
-    left: -15px;
+    left: -10px;
     height: 2px;
     background-color: red;
 
@@ -511,21 +540,25 @@
 #G:checked~.togglebox label span:nth-child(3) {
     transform: rotate(90deg);
     top: 35px;
-    left: 35px;
+    width: 20px;
+    left: 30px;
     height: 2px;
     background-color: red;
-    width: 20px;
 }
 
 #G:checked~.togglebox label span:nth-child(4) {
     transform: rotate(0deg);
     top: 25px;
+    left: 10px;
+    width: 30px;
     height: 2px;
     background-color: red;
 }
 
 #G:checked~.togglebox label span:nth-child(5) {
     transform: rotate(0deg);
+    width: 30px;
+    left: 10px;
     top: 45px;
     height: 2px;
     background-color: red;
@@ -585,7 +618,7 @@
 #H:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 25px;
-    left: -15px;
+    left: -10px;
     height: 2px;
     background-color: red;
 }
@@ -593,7 +626,7 @@
 #H:checked~.togglebox label span:nth-child(3) {
     transform: rotate(90deg);
     top: 25px;
-    left: 25px;
+    left: 20px;
     height: 2px;
     background-color: red;
 }
@@ -601,6 +634,8 @@
 #H:checked~.togglebox label span:nth-child(4) {
     transform: rotate(0deg);
     top: 25px;
+    left: 10px;
+    width: 30px;
     height: 2px;
     background-color: red;
 }
@@ -751,9 +786,9 @@
 
 #J:checked~.togglebox label span:nth-child(5) {
     transform: rotate(0deg);
-    top: 45px;
-    left: 10px;
-    width: 18px;
+    top: 44px;
+    left: 18px;
+    width: 10px;
     height: 2px;
     background-color: red;
 }
@@ -807,22 +842,25 @@
 #K:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 25px;
-    left: -14px;
+    left: -8px;
     height: 2px;
     background-color: red;
 }
 
 #K:checked~.togglebox label span:nth-child(3) {
-    transform: rotate(25deg);
+    transform: rotate(40deg);
     top: 35px;
-    left: 5px;
+    width: 30px;
+    left: 10px;
     height: 2px;
     background-color: red;
 }
 
 #K:checked~.togglebox label span:nth-child(4) {
-    transform: rotate(-25deg);
+    transform: rotate(-40deg);
     top: 15px;
+    left: 10px;
+    width: 32px;
     height: 2px;
     background-color: red;
 }
@@ -876,6 +914,7 @@
 #L:checked~.togglebox label span:nth-child(1) {
     transform: rotate(0deg);
     top: 45px;
+    left: 11px;
     height: 2px;
     width: 27px;
     background-color: red;
@@ -884,7 +923,7 @@
 #L:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 25px;
-    left: -15px;
+    left: -8px;
     height: 2px;
     background-color: red;
 }
@@ -944,27 +983,27 @@
 
 
 #M:checked~.togglebox label span:nth-child(1) {
-    transform: rotate(40deg);
-    top: 15px;
-    left: 3px;
+    transform: rotate(60deg);
+    top: 20px;
+    left: 0px;
     height: 2px;
-    width: 25px;
+    width: 35px;
     background-color: red;
 }
 
 #M:checked~.togglebox label span:nth-child(2) {
-    transform: rotate(-40deg);
-    top: 15px;
-    left: 22px;
+    transform: rotate(-60deg);
+    top: 20px;
+    left: 17px;
     height: 2px;
-    width: 25px;
+    width: 35px;
     background-color: red;
 }
 
 #M:checked~.togglebox label span:nth-child(3) {
     transform: rotate(90deg);
     top: 25px;
-    left: 25px;
+    left: 23px;
     height: 2px;
     background-color: red;
 }
@@ -972,7 +1011,7 @@
 #M:checked~.togglebox label span:nth-child(4) {
     transform: rotate(90deg);
     top: 25px;
-    left: -15px;
+    left: -12px;
     height: 2px;
     background-color: red;
 }
@@ -1030,7 +1069,7 @@
 #N:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 25px;
-    left: -14px;
+    left: -10px;
     height: 2px;
     background-color: red;
 }
@@ -1038,7 +1077,7 @@
 #N:checked~.togglebox label span:nth-child(3) {
     transform: rotate(90deg);
     top: 25px;
-    left: 24px;
+    left: 20px;
     height: 2px;
     background-color: red;
 }
@@ -1048,10 +1087,10 @@
 }
 
 #N:checked~.togglebox label span:nth-child(5) {
-    transform: rotate(49deg);
+    transform: rotate(51deg);
     top: 25px;
-    left: -5px;
-    width: 60px;
+    left: 0px;
+    width: 50px;
     height: 2px;
     background-color: red;
 }
@@ -1105,7 +1144,8 @@
 #O:checked~.togglebox label span:nth-child(1) {
     transform: rotate(0deg);
     top: 5px;
-    left: 5px;
+    left: 10px;
+    width: 30px;
     height: 2px;
     background-color: red;
 }
@@ -1113,7 +1153,7 @@
 #O:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 25px;
-    left: -14px;
+    left: -10px;
     height: 2px;
     background-color: red;
 }
@@ -1121,7 +1161,7 @@
 #O:checked~.togglebox label span:nth-child(3) {
     transform: rotate(90deg);
     top: 25px;
-    left: 24px;
+    left: 20px;
     height: 2px;
     background-color: red;
 }
@@ -1129,18 +1169,14 @@
 #O:checked~.togglebox label span:nth-child(4) {
     transform: rotate(0deg);
     top: 45px;
-    left: 5px;
+    width: 30px;
+    left: 10px;
     height: 2px;
     background-color: red;
 }
 
 #O:checked~.togglebox label span:nth-child(5) {
-    transform: rotate(49deg);
-    top: 25px;
-    left: -5px;
-    width: 60px;
-    height: 2px;
-    background-color: red;
+   display: none;
 }
 
 #P {
@@ -1192,16 +1228,16 @@
 #P:checked~.togglebox label span:nth-child(1) {
     transform: rotate(0deg);
     top: 5px;
-    left: 5px;
+    left: 10px;
     height: 2px;
-    width: 35px;
+    width: 30px;
     background-color: red;
 }
 
 #P:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 25px;
-    left: -14px;
+    left: -10px;
     height: 2px;
     background-color: red;
 }
@@ -1218,8 +1254,8 @@
 #P:checked~.togglebox label span:nth-child(4) {
     transform: rotate(0deg);
     top: 30px;
-    width: 35px;
-    left: 5px;
+    width: 30px;
+    left: 10px;
     height: 2px;
     background-color: red;
 }
@@ -1276,8 +1312,9 @@
 
 #Q:checked~.togglebox label span:nth-child(1) {
     transform: rotate(0deg);
-    top: 5px;
-    left: 5px;
+    top: 10px;
+    width: 30px;
+    left: 10px;
     height: 2px;
     background-color: red;
 }
@@ -1285,7 +1322,8 @@
 #Q:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 25px;
-    left: -14px;
+    width: 30px;
+    left: -5px;
     height: 2px;
     background-color: red;
 }
@@ -1293,24 +1331,26 @@
 #Q:checked~.togglebox label span:nth-child(3) {
     transform: rotate(90deg);
     top: 25px;
-    left: 24px;
+    left: 25px;
+    width: 30px;
     height: 2px;
     background-color: red;
 }
 
 #Q:checked~.togglebox label span:nth-child(4) {
     transform: rotate(0deg);
-    top: 45px;
-    left: 5px;
+    top: 40px;
+    left: 10px;
+    width: 30px;
     height: 2px;
     background-color: red;
 }
 
 #Q:checked~.togglebox label span:nth-child(5) {
     transform: rotate(45deg);
-    top: 40px;
-    left: 32px;
-    width: 15px;
+    top: 35px;
+    left: 28px;
+    width: 17px;
     height: 2px;
     background-color: red;
 }
@@ -1331,7 +1371,7 @@
 
 .togglebox label span {
     width: 40px;
-    left: 5px;
+    left: 15px;
     height: 1px;
     position: absolute;
     background-color: black;
@@ -1364,16 +1404,16 @@
 #R:checked~.togglebox label span:nth-child(1) {
     transform: rotate(0deg);
     top: 5px;
-    left: 5px;
+    left: 10px;
     height: 2px;
-    width: 35px;
+    width: 30px;
     background-color: red;
 }
 
 #R:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 25px;
-    left: -14px;
+    left: -10px;
     height: 2px;
     background-color: red;
 }
@@ -1390,8 +1430,8 @@
 #R:checked~.togglebox label span:nth-child(4) {
     transform: rotate(0deg);
     top: 30px;
-    width: 35px;
-    left: 5px;
+    width: 30px;
+    left: 10px;
     height: 2px;
     background-color: red;
 }
@@ -1399,8 +1439,8 @@
 #R:checked~.togglebox label span:nth-child(5) {
     transform: rotate(28deg);
     top: 37px;
-    width: 40px;
-    left: 3px;
+    width: 30px;
+    left: 10px;
     height: 2px;
     background-color: red;
 }
@@ -1454,44 +1494,44 @@
 #S:checked~.togglebox label span:nth-child(1) {
     transform: rotate(0deg);
     top: 5px;
-    left: 5px;
+    left: 10px;
     height: 2px;
-    width: 35px;
+    width: 30px;
     background-color: red;
 }
 
 #S:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
-    top: 15px;
-    left: -6px;
-    width: 21px;
+    top: 14px;
+    left: 0px;
+    width: 20px;
     height: 2px;
     background-color: red;
 }
 
 #S:checked~.togglebox label span:nth-child(3) {
     transform: rotate(90deg);
-    top: 35px;
-    left: 29px;
-    width: 21px;
+    top: 33px;
+    left: 30px;
+    width: 20px;
     height: 2px;
     background-color: red;
 }
 
 #S:checked~.togglebox label span:nth-child(4) {
     transform: rotate(0deg);
-    top: 25px;
-    width: 35px;
-    left: 5px;
+    top: 24px;
+    width: 30px;
+    left: 10px;
     height: 2px;
     background-color: red;
 }
 
 #S:checked~.togglebox label span:nth-child(5) {
     transform: rotate(0deg);
-    top: 45px;
-    width: 35px;
-    left: 5px;
+    top: 42px;
+    width: 30px;
+    left: 10px;
     height: 2px;
     background-color: red;
 }
@@ -1624,7 +1664,7 @@
 #U:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 25px;
-    left: -14px;
+    left: -10px;
     height: 2px;
     background-color: red;
 }
@@ -1632,7 +1672,7 @@
 #U:checked~.togglebox label span:nth-child(3) {
     transform: rotate(90deg);
     top: 25px;
-    left: 24px;
+    left: 20px;
     height: 2px;
     background-color: red;
 }
@@ -1640,7 +1680,8 @@
 #U:checked~.togglebox label span:nth-child(4) {
     transform: rotate(0deg);
     top: 45px;
-    left: 5px;
+    width: 30px;
+    left: 10px;
     height: 2px;
     background-color: red;
 }
