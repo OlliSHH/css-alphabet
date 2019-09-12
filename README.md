@@ -1,2 +1,2 @@
 # css-alphabet
-something totally useless :-)
+something totally useless, but pure css :-)
