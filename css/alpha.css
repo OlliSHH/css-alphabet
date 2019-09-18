@@ -54,63 +54,11 @@
     height: 2px;
     background-color: white;
 }
-#A2 {
-    display: none;
-}
 
-.togglebox label span:nth-child(1) {
-
-    top: 10px;
-}
-
-.togglebox label span:nth-child(2) {
-
-    top: 25px;
-}
-
-.togglebox label span:nth-child(3) {
-    top: 40px;
-}
-
-.togglebox label span:nth-child(4) {
-    height: 0;
-}
-
-
-#A2:checked~.togglebox label span:nth-child(1) {
-    display: none;
-}
-
-#A2:checked~.togglebox label span:nth-child(2) {
-    transform: rotate(-60deg);
-    top: 25px;
-    left: -5px;
-    height: 2px;
-    background-color: white;
-}
-
-#A2:checked~.togglebox label span:nth-child(3) {
-    transform: rotate(60deg);
-    top: 25px;
-    left: 15px;
-    height: 2px;
-    background-color: white;
-}
-
-#A2:checked~.togglebox label span:nth-child(4) {
-    transform: rotate(0deg);
-    left: 10px;
-    top: 31px;
-    width: 30px;
-    height: 2px;
-    background-color: white;
-}
 
 #B {
     display: none;
 }
-
-
 
 .togglebox label span:nth-child(1) {
 
@@ -550,66 +498,7 @@
     display: none;
 }
 
-#H2 {
-    display: none;
-}
 
-
-.togglebox label span:nth-child(1) {
-
-    top: 10px;
-}
-
-.togglebox label span:nth-child(2) {
-
-    top: 25px;
-}
-
-.togglebox label span:nth-child(3) {
-    top: 40px;
-}
-
-.togglebox label span:nth-child(4) {
-    height: 0;
-}
-
-.togglebox label span:nth-child(5) {
-    height: 0;
-}
-
-
-#H2:checked~.togglebox label span:nth-child(1) {
-    display: none;
-}
-
-#H2:checked~.togglebox label span:nth-child(2) {
-    transform: rotate(90deg);
-    top: 25px;
-    left: -10px;
-    height: 2px;
-    background-color: white;
-}
-
-#H2:checked~.togglebox label span:nth-child(3) {
-    transform: rotate(90deg);
-    top: 25px;
-    left: 20px;
-    height: 2px;
-    background-color: white;
-}
-
-#H2:checked~.togglebox label span:nth-child(4) {
-    transform: rotate(0deg);
-    top: 25px;
-    left: 10px;
-    width: 30px;
-    height: 2px;
-    background-color: white;
-}
-
-#H2:checked~.togglebox label span:nth-child(5) {
-    display: none;
-}
 #I {
     display: none;
 }
@@ -634,9 +523,7 @@
 }
 
 
-#olliCheck:not(:checked)~.olli4>div>label>span:nth-child(1) {
-    transition-property: all;
-    transition-delay: 4s;
+#I:checked~.togglebox label span:nth-child(1) {
     transform: rotate(90deg);
     top: 7px;
     left: 25px;
@@ -645,9 +532,7 @@
     background-color: white;
 }
 
-#olliCheck:not(:checked)~.olli4>div>label>span:nth-child(2) {
-    transition-property: all;
-    transition-delay: 4s;
+#I:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 28px;
     left: 12px;
@@ -656,7 +541,7 @@
     background-color: white;
 }
 
-#olliCheck:not(:checked)~.olli4>div>label>span:nth-child(3) {
+#I:checked~.togglebox label span:nth-child(3) {
     display: none;
 }
 
@@ -809,9 +694,7 @@
 }
 
 
-#olliCheck:not(:checked)~.olli2>div>label>span:nth-child(1) {
-    transition-property: all;
-    transition-delay: 4s;
+#L:checked~.togglebox label span:nth-child(1) {
     transform: rotate(0deg);
     top: 45px;
     left: 11px;
@@ -820,9 +703,7 @@
     background-color: white;
 }
 
-#olliCheck:not(:checked)~.olli2>div>label>span:nth-child(2) {
-    transition-property: all;
-    transition-delay: 4s;
+#L:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 25px;
     left: -8px;
@@ -830,7 +711,7 @@
     background-color: white;
 }
 
-#olliCheck:not(:checked)~.olli2>div>label>span:nth-child(3) {
+#L:checked~.togglebox label span:nth-child(3) {
     display: none;
 }
 
@@ -839,67 +720,6 @@
 }
 
 #L:checked~.togglebox label span:nth-child(5) {
-    display: none;
-}
-
-#L2 {
-    display: none;
-}
-
-
-.togglebox label span:nth-child(1) {
-
-    top: 10px;
-}
-
-.togglebox label span:nth-child(2) {
-
-    top: 25px;
-}
-
-.togglebox label span:nth-child(3) {
-    top: 40px;
-}
-
-.togglebox label span:nth-child(4) {
-    height: 0;
-}
-
-.togglebox label span:nth-child(5) {
-    height: 0;
-}
-
-
-#olliCheck:not(:checked)~.olli3>div>label>span:nth-child(1) {
-    transition-property: all;
-    transition-delay: 4s;
-    transform: rotate(0deg);
-    top: 45px;
-    left: 11px;
-    height: 2px;
-    width: 27px;
-    background-color: white;
-}
-
-#olliCheck:not(:checked)~.olli3>div>label>span:nth-child(2) {
-    transition-property: all;
-    transition-delay: 4s;
-    transform: rotate(90deg);
-    top: 25px;
-    left: -8px;
-    height: 2px;
-    background-color: white;
-}
-
-#olliCheck:not(:checked)~.olli3>div>label>span:nth-child(3) {
-    display: none;
-}
-
-#L2:checked~.togglebox label span:nth-child(4) {
-    display: none;
-}
-
-#L2:checked~.togglebox label span:nth-child(5) {
     display: none;
 }
 
@@ -1052,9 +872,7 @@
 }
 
 
-#olliCheck:not(:checked)~.olli1>div>label>span:nth-child(1) {
-    transition-property: all;
-    transition-delay: 4s;
+#O:checked~.togglebox label span:nth-child(1) {
     transform: rotate(0deg);
     top: 5px;
     left: 10px;
@@ -1065,9 +883,7 @@
 
 }
 
-#olliCheck:not(:checked)~.olli1>div>label>span:nth-child(2) {
-    transition-property: all;
-    transition-delay: 3s;
+#O:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 25px;
     left: -10px;
@@ -1075,9 +891,7 @@
     background-color: white;
 }
 
-#olliCheck:not(:checked)~.olli1>div>label>span:nth-child(3) {
-    transition-property: all;
-    transition-delay: 2s;
+#O:checked~.togglebox label span:nth-child(3) {
     transform: rotate(90deg);
     top: 25px;
     left: 20px;
@@ -1085,9 +899,7 @@
     background-color: white;
 }
 
-#olliCheck:not(:checked)~.olli1>div>label>span:nth-child(4) {
-    transition-property: all;
-    transition-delay: 5s;
+#O:checked~.togglebox label span:nth-child(4) {
     transform: rotate(0deg);
     top: 45px;
     width: 30px;
@@ -1096,141 +908,10 @@
     background-color: white;
 }
 
-#olliCheck:checked~.olli1>div>label>span:nth-child(5) {
+#O:checked~.togglebox label span:nth-child(5) {
    display: none;
 }
 
-#O2 {
-    display: none;
-}
-
-
-.togglebox label span:nth-child(1) {
-
-    top: 10px;
-}
-
-.togglebox label span:nth-child(2) {
-
-    top: 25px;
-}
-
-.togglebox label span:nth-child(3) {
-    top: 40px;
-}
-
-.togglebox label span:nth-child(4) {
-    height: 0;
-}
-
-.togglebox label span:nth-child(5) {
-    height: 0;
-}
-
-
-#O2:checked~.togglebox label span:nth-child(1) {
-    transform: rotate(0deg);
-    top: 5px;
-    left: 10px;
-    width: 30px;
-    height: 2px;
-    background-color: white;
-    
-}
-
-#O2:checked~.togglebox label span:nth-child(2) {
-    transform: rotate(90deg);
-    top: 25px;
-    left: -10px;
-    height: 2px;
-    background-color: white;
-}
-
-#O2:checked~.togglebox label span:nth-child(3) {
-    transform: rotate(90deg);
-    top: 25px;
-    left: 20px;
-    height: 2px;
-    background-color: white;
-}
-
-#O2:checked~.togglebox label span:nth-child(4) {
-    transform: rotate(0deg);
-    top: 45px;
-    width: 30px;
-    left: 10px;
-    height: 2px;
-    background-color: white;
-}
-
-#O2:checked~.togglebox label span:nth-child(5) {
-   display: none;
-}
-#O3 {
-    display: none;
-}
-
-
-.togglebox label span:nth-child(1) {
-
-    top: 10px;
-}
-
-.togglebox label span:nth-child(2) {
-
-    top: 25px;
-}
-
-.togglebox label span:nth-child(3) {
-    top: 40px;
-}
-
-.togglebox label span:nth-child(4) {
-    height: 0;
-}
-
-.togglebox label span:nth-child(5) {
-    height: 0;
-}
-
-
-#O3:checked~.togglebox label span:nth-child(1) {
-    transform: rotate(0deg);
-    top: 5px;
-    left: 10px;
-    width: 30px;
-    height: 2px;
-    background-color: white;
-}
-
-#O3:checked~.togglebox label span:nth-child(2) {
-    transform: rotate(90deg);
-    top: 25px;
-    left: -10px;
-    height: 2px;
-    background-color: white;
-}
-
-#O3:checked~.togglebox label span:nth-child(3) {
-    transform: rotate(90deg);
-    top: 25px;
-    left: 20px;
-    height: 2px;
-    background-color: white;
-}
-
-#O3:checked~.togglebox label span:nth-child(4) {
-    transform: rotate(0deg);
-    top: 45px;
-    width: 30px;
-    left: 10px;
-    height: 2px;
-    background-color: white;
-}
-
-#O3:checked~.togglebox label span:nth-child(5) {
-   display: none;
-}
 
 #Ö {
     display: none;
