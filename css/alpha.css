@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+#olliCheck{
+    display: none;
+}
 .olli{
     display: flex;
 }
@@ -1022,6 +1025,8 @@
     background-color: white;
 }
 
+
+
 #O {
     display: none;
 }
@@ -1050,16 +1055,22 @@
 }
 
 
-#O:checked~.togglebox label span:nth-child(1) {
+#olliCheck:not(:checked)~.olli1>div>label>span:nth-child(1) {
+    transition-property: all;
+    transition-delay: 4s;
     transform: rotate(0deg);
     top: 5px;
     left: 10px;
     width: 30px;
     height: 2px;
     background-color: white;
+    
+
 }
 
-#O:checked~.togglebox label span:nth-child(2) {
+#olliCheck:not(:checked)~.olli1>div>label>span:nth-child(2) {
+    transition-property: all;
+    transition-delay: 3s;
     transform: rotate(90deg);
     top: 25px;
     left: -10px;
@@ -1067,7 +1078,9 @@
     background-color: white;
 }
 
-#O:checked~.togglebox label span:nth-child(3) {
+#olliCheck:not(:checked)~.olli1>div>label>span:nth-child(3) {
+    transition-property: all;
+    transition-delay: 2s;
     transform: rotate(90deg);
     top: 25px;
     left: 20px;
@@ -1075,7 +1088,9 @@
     background-color: white;
 }
 
-#O:checked~.togglebox label span:nth-child(4) {
+#olliCheck:not(:checked)~.olli1>div>label>span:nth-child(4) {
+    transition-property: all;
+    transition-delay: 5s;
     transform: rotate(0deg);
     top: 45px;
     width: 30px;
@@ -1084,7 +1099,7 @@
     background-color: white;
 }
 
-#O:checked~.togglebox label span:nth-child(5) {
+#olliCheck:checked~.olli1>div>label>span:nth-child(5) {
    display: none;
 }
 
@@ -1123,6 +1138,7 @@
     width: 30px;
     height: 2px;
     background-color: white;
+    
 }
 
 #O2:checked~.togglebox label span:nth-child(2) {
@@ -2102,8 +2118,7 @@
     height: 2px;
     background-color: white;
 
-
-
-
-
 }
+
+
+
