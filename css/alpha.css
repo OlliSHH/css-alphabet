@@ -649,7 +649,9 @@
 }
 
 
-#I:checked~.togglebox label span:nth-child(1) {
+#olliCheck:not(:checked)~.olli4>div>label>span:nth-child(1) {
+    transition-property: all;
+    transition-delay: 4s;
     transform: rotate(90deg);
     top: 7px;
     left: 25px;
@@ -658,7 +660,9 @@
     background-color: white;
 }
 
-#I:checked~.togglebox label span:nth-child(2) {
+#olliCheck:not(:checked)~.olli4>div>label>span:nth-child(2) {
+    transition-property: all;
+    transition-delay: 4s;
     transform: rotate(90deg);
     top: 28px;
     left: 12px;
@@ -667,7 +671,7 @@
     background-color: white;
 }
 
-#I:checked~.togglebox label span:nth-child(3) {
+#olliCheck:not(:checked)~.olli4>div>label>span:nth-child(3) {
     display: none;
 }
 
@@ -820,7 +824,9 @@
 }
 
 
-#L:checked~.togglebox label span:nth-child(1) {
+#olliCheck:not(:checked)~.olli2>div>label>span:nth-child(1) {
+    transition-property: all;
+    transition-delay: 4s;
     transform: rotate(0deg);
     top: 45px;
     left: 11px;
@@ -829,7 +835,9 @@
     background-color: white;
 }
 
-#L:checked~.togglebox label span:nth-child(2) {
+#olliCheck:not(:checked)~.olli2>div>label>span:nth-child(2) {
+    transition-property: all;
+    transition-delay: 4s;
     transform: rotate(90deg);
     top: 25px;
     left: -8px;
@@ -837,7 +845,7 @@
     background-color: white;
 }
 
-#L:checked~.togglebox label span:nth-child(3) {
+#olliCheck:not(:checked)~.olli2>div>label>span:nth-child(3) {
     display: none;
 }
 
@@ -877,7 +885,9 @@
 }
 
 
-#L2:checked~.togglebox label span:nth-child(1) {
+#olliCheck:not(:checked)~.olli3>div>label>span:nth-child(1) {
+    transition-property: all;
+    transition-delay: 4s;
     transform: rotate(0deg);
     top: 45px;
     left: 11px;
@@ -886,7 +896,9 @@
     background-color: white;
 }
 
-#L2:checked~.togglebox label span:nth-child(2) {
+#olliCheck:not(:checked)~.olli3>div>label>span:nth-child(2) {
+    transition-property: all;
+    transition-delay: 4s;
     transform: rotate(90deg);
     top: 25px;
     left: -8px;
@@ -894,7 +906,7 @@
     background-color: white;
 }
 
-#L2:checked~.togglebox label span:nth-child(3) {
+#olliCheck:not(:checked)~.olli3>div>label>span:nth-child(3) {
     display: none;
 }
 
