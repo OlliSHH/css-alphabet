@@ -2,10 +2,6 @@
     padding: 0;
     margin: 0;
 }
-
-#A {
-    display: none;
-}
 .olli{
     display: flex;
 }
@@ -19,6 +15,9 @@
     display: flex;
 }
 
+#A {
+    display: none;
+}
 
 .togglebox label span:nth-child(1) {
 
@@ -60,6 +59,57 @@
 }
 
 #A:checked~.togglebox label span:nth-child(4) {
+    transform: rotate(0deg);
+    left: 10px;
+    top: 31px;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+}
+#A2 {
+    display: none;
+}
+
+.togglebox label span:nth-child(1) {
+
+    top: 10px;
+}
+
+.togglebox label span:nth-child(2) {
+
+    top: 25px;
+}
+
+.togglebox label span:nth-child(3) {
+    top: 40px;
+}
+
+.togglebox label span:nth-child(4) {
+    height: 0;
+}
+
+
+#A2:checked~.togglebox label span:nth-child(1) {
+    display: none;
+}
+
+#A2:checked~.togglebox label span:nth-child(2) {
+    transform: rotate(-60deg);
+    top: 25px;
+    left: -5px;
+    height: 2px;
+    background-color: white;
+}
+
+#A2:checked~.togglebox label span:nth-child(3) {
+    transform: rotate(60deg);
+    top: 25px;
+    left: 15px;
+    height: 2px;
+    background-color: white;
+}
+
+#A2:checked~.togglebox label span:nth-child(4) {
     transform: rotate(0deg);
     left: 10px;
     top: 31px;
@@ -512,6 +562,66 @@
     display: none;
 }
 
+#H2 {
+    display: none;
+}
+
+
+.togglebox label span:nth-child(1) {
+
+    top: 10px;
+}
+
+.togglebox label span:nth-child(2) {
+
+    top: 25px;
+}
+
+.togglebox label span:nth-child(3) {
+    top: 40px;
+}
+
+.togglebox label span:nth-child(4) {
+    height: 0;
+}
+
+.togglebox label span:nth-child(5) {
+    height: 0;
+}
+
+
+#H2:checked~.togglebox label span:nth-child(1) {
+    display: none;
+}
+
+#H2:checked~.togglebox label span:nth-child(2) {
+    transform: rotate(90deg);
+    top: 25px;
+    left: -10px;
+    height: 2px;
+    background-color: white;
+}
+
+#H2:checked~.togglebox label span:nth-child(3) {
+    transform: rotate(90deg);
+    top: 25px;
+    left: 20px;
+    height: 2px;
+    background-color: white;
+}
+
+#H2:checked~.togglebox label span:nth-child(4) {
+    transform: rotate(0deg);
+    top: 25px;
+    left: 10px;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+}
+
+#H2:checked~.togglebox label span:nth-child(5) {
+    display: none;
+}
 #I {
     display: none;
 }
@@ -736,6 +846,63 @@
     display: none;
 }
 
+#L2 {
+    display: none;
+}
+
+
+.togglebox label span:nth-child(1) {
+
+    top: 10px;
+}
+
+.togglebox label span:nth-child(2) {
+
+    top: 25px;
+}
+
+.togglebox label span:nth-child(3) {
+    top: 40px;
+}
+
+.togglebox label span:nth-child(4) {
+    height: 0;
+}
+
+.togglebox label span:nth-child(5) {
+    height: 0;
+}
+
+
+#L2:checked~.togglebox label span:nth-child(1) {
+    transform: rotate(0deg);
+    top: 45px;
+    left: 11px;
+    height: 2px;
+    width: 27px;
+    background-color: white;
+}
+
+#L2:checked~.togglebox label span:nth-child(2) {
+    transform: rotate(90deg);
+    top: 25px;
+    left: -8px;
+    height: 2px;
+    background-color: white;
+}
+
+#L2:checked~.togglebox label span:nth-child(3) {
+    display: none;
+}
+
+#L2:checked~.togglebox label span:nth-child(4) {
+    display: none;
+}
+
+#L2:checked~.togglebox label span:nth-child(5) {
+    display: none;
+}
+
 #M {
     display: none;
 }
@@ -918,6 +1085,137 @@
 }
 
 #O:checked~.togglebox label span:nth-child(5) {
+   display: none;
+}
+
+#O2 {
+    display: none;
+}
+
+
+.togglebox label span:nth-child(1) {
+
+    top: 10px;
+}
+
+.togglebox label span:nth-child(2) {
+
+    top: 25px;
+}
+
+.togglebox label span:nth-child(3) {
+    top: 40px;
+}
+
+.togglebox label span:nth-child(4) {
+    height: 0;
+}
+
+.togglebox label span:nth-child(5) {
+    height: 0;
+}
+
+
+#O2:checked~.togglebox label span:nth-child(1) {
+    transform: rotate(0deg);
+    top: 5px;
+    left: 10px;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+}
+
+#O2:checked~.togglebox label span:nth-child(2) {
+    transform: rotate(90deg);
+    top: 25px;
+    left: -10px;
+    height: 2px;
+    background-color: white;
+}
+
+#O2:checked~.togglebox label span:nth-child(3) {
+    transform: rotate(90deg);
+    top: 25px;
+    left: 20px;
+    height: 2px;
+    background-color: white;
+}
+
+#O2:checked~.togglebox label span:nth-child(4) {
+    transform: rotate(0deg);
+    top: 45px;
+    width: 30px;
+    left: 10px;
+    height: 2px;
+    background-color: white;
+}
+
+#O2:checked~.togglebox label span:nth-child(5) {
+   display: none;
+}
+#O3 {
+    display: none;
+}
+
+
+.togglebox label span:nth-child(1) {
+
+    top: 10px;
+}
+
+.togglebox label span:nth-child(2) {
+
+    top: 25px;
+}
+
+.togglebox label span:nth-child(3) {
+    top: 40px;
+}
+
+.togglebox label span:nth-child(4) {
+    height: 0;
+}
+
+.togglebox label span:nth-child(5) {
+    height: 0;
+}
+
+
+#O3:checked~.togglebox label span:nth-child(1) {
+    transform: rotate(0deg);
+    top: 5px;
+    left: 10px;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+}
+
+#O3:checked~.togglebox label span:nth-child(2) {
+    transform: rotate(90deg);
+    top: 25px;
+    left: -10px;
+    height: 2px;
+    background-color: white;
+}
+
+#O3:checked~.togglebox label span:nth-child(3) {
+    transform: rotate(90deg);
+    top: 25px;
+    left: 20px;
+    height: 2px;
+    background-color: white;
+}
+
+#O3:checked~.togglebox label span:nth-child(4) {
+    transform: rotate(0deg);
+    top: 45px;
+    width: 30px;
+    left: 10px;
+    height: 2px;
+    background-color: white;
+}
+
+#O3:checked~.togglebox label span:nth-child(5) {
    display: none;
 }
 
@@ -1217,6 +1515,77 @@
     background-color: white;
 }
 
+#R2 {
+    display: none;
+}
+
+
+.togglebox label span:nth-child(1) {
+
+    top: 10px;
+}
+
+.togglebox label span:nth-child(2) {
+
+    top: 25px;
+}
+
+.togglebox label span:nth-child(3) {
+    top: 40px;
+}
+
+.togglebox label span:nth-child(4) {
+    height: 0;
+}
+
+.togglebox label span:nth-child(5) {
+    height: 0;
+}
+
+
+#R2:checked~.togglebox label span:nth-child(1) {
+    transform: rotate(0deg);
+    top: 5px;
+    left: 10px;
+    height: 2px;
+    width: 30px;
+    background-color: white;
+}
+
+#R2:checked~.togglebox label span:nth-child(2) {
+    transform: rotate(90deg);
+    top: 25px;
+    left: -10px;
+    height: 2px;
+    background-color: white;
+}
+
+#R2:checked~.togglebox label span:nth-child(3) {
+    transform: rotate(90deg);
+    top: 18px;
+    left: 26px;
+    width: 25px;
+    height: 2px;
+    background-color: white;
+}
+
+#R2:checked~.togglebox label span:nth-child(4) {
+    transform: rotate(0deg);
+    top: 30px;
+    width: 30px;
+    left: 10px;
+    height: 2px;
+    background-color: white;
+}
+
+#R2:checked~.togglebox label span:nth-child(5) {
+    transform: rotate(28deg);
+    top: 37px;
+    width: 30px;
+    left: 10px;
+    height: 2px;
+    background-color: white;
+}
 #S {
     display: none;
 }
@@ -1346,6 +1715,64 @@
 #T:checked~.togglebox label span:nth-child(5) {
     display: none;
 }
+
+#T2 {
+    display: none;
+}
+
+
+.togglebox label span:nth-child(1) {
+
+    top: 10px;
+}
+
+.togglebox label span:nth-child(2) {
+
+    top: 25px;
+}
+
+.togglebox label span:nth-child(3) {
+    top: 40px;
+}
+
+.togglebox label span:nth-child(4) {
+    height: 0;
+}
+
+.togglebox label span:nth-child(5) {
+    height: 0;
+}
+
+
+#T2:checked~.togglebox label span:nth-child(1) {
+    transform: rotate(0deg);
+    top: 5px;
+    left: 8px;
+    height: 2px;
+    width: 35px;
+    background-color: white;
+}
+
+#T2:checked~.togglebox label span:nth-child(2) {
+    transform: rotate(90deg);
+    top: 25px;
+    left: 5px;
+    height: 2px;
+    background-color: white;
+}
+
+#T2:checked~.togglebox label span:nth-child(3) {
+    display: none;
+}
+
+#T2:checked~.togglebox label span:nth-child(4) {
+    display: none;
+}
+
+#T2:checked~.togglebox label span:nth-child(5) {
+    display: none;
+}
+
 
 #U {
     display: none;
