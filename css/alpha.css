@@ -6,25 +6,19 @@
 #A {
     display: none;
 }
-
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
+.olli{
+    display: flex;
+}
+.thando{
+    display: flex;
+}
+.ruth{
+    display: flex;
+}
+.omar{
+    display: flex;
 }
 
-.togglebox label span {
-    width: 10px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -54,7 +48,7 @@
     top: 25px;
     left: -5px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #A:checked~.togglebox label span:nth-child(3) {
@@ -62,7 +56,7 @@
     top: 25px;
     left: 15px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #A:checked~.togglebox label span:nth-child(4) {
@@ -71,31 +65,14 @@
     top: 31px;
     width: 30px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #B {
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
 
-.togglebox label span {
-    width: 40px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -126,7 +103,7 @@
     top: 5px;
     width: 30px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #B:checked~.togglebox label span:nth-child(2) {
@@ -134,7 +111,7 @@
     top: 25px;
     left: -10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #B:checked~.togglebox label span:nth-child(3) {
@@ -142,7 +119,7 @@
     top: 25px;
     left: 20px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #B:checked~.togglebox label span:nth-child(4) {
@@ -151,7 +128,7 @@
     left: 10px;
     top: 25px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #B:checked~.togglebox label span:nth-child(5) {
@@ -160,31 +137,13 @@
     left: 10px;
     top: 45px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #C {
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 10px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -211,7 +170,7 @@
     left: 10px;
     width: 30px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #C:checked~.togglebox label span:nth-child(2) {
@@ -219,7 +178,7 @@
     top: 25px;
     left: -10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #C:checked~.togglebox label span:nth-child(3) {
@@ -232,31 +191,13 @@
     left: 10px;
     top: 45px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #D {
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 40px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -287,7 +228,7 @@
     left: 11px;
     width: 30px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #D:checked~.togglebox label span:nth-child(2) {
@@ -295,7 +236,7 @@
     top: 25px;
     left: -9px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #D:checked~.togglebox label span:nth-child(3) {
@@ -304,7 +245,7 @@
     width: 30px;
     left: 11px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 #D:checked~.togglebox label span:nth-child(4) {
     transform: rotate(90deg);
@@ -312,31 +253,13 @@
     width: 24px;
     left: 28px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #E {
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 10px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -363,7 +286,7 @@
     left: 10px;
     width: 30px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #E:checked~.togglebox label span:nth-child(2) {
@@ -371,7 +294,7 @@
     top: 25px;
     left: -10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #E:checked~.togglebox label span:nth-child(3) {
@@ -380,7 +303,7 @@
     left: 10px;
     width: 30px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #E:checked~.togglebox label span:nth-child(4) {
@@ -389,31 +312,13 @@
     top: 25px;
     width: 30px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #F {
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 40px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -444,7 +349,7 @@
     left: 10px;
     width: 30px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #F:checked~.togglebox label span:nth-child(2) {
@@ -452,7 +357,7 @@
     top: 25px;
     left: -10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #F:checked~.togglebox label span:nth-child(3) {
@@ -461,7 +366,7 @@
     width: 30px;
     left: 10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #F:checked~.togglebox label span:nth-child(4) {
@@ -471,25 +376,6 @@
 
 #G {
     display: none;
-}
-
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 10px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
 }
 
 .togglebox label span:nth-child(1) {
@@ -524,7 +410,7 @@
     left: 10px;
     top: 5px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 
 }
 
@@ -533,7 +419,7 @@
     top: 25px;
     left: -10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 
 }
 
@@ -543,7 +429,7 @@
     width: 20px;
     left: 30px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #G:checked~.togglebox label span:nth-child(4) {
@@ -552,7 +438,7 @@
     left: 10px;
     width: 30px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #G:checked~.togglebox label span:nth-child(5) {
@@ -561,7 +447,7 @@
     left: 10px;
     top: 45px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 
 }
 
@@ -569,24 +455,6 @@
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 40px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -620,7 +488,7 @@
     top: 25px;
     left: -10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #H:checked~.togglebox label span:nth-child(3) {
@@ -628,7 +496,7 @@
     top: 25px;
     left: 20px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #H:checked~.togglebox label span:nth-child(4) {
@@ -637,7 +505,7 @@
     left: 10px;
     width: 30px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #H:checked~.togglebox label span:nth-child(5) {
@@ -648,24 +516,6 @@
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 10px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -692,7 +542,7 @@
     left: 25px;
     width: 4px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #I:checked~.togglebox label span:nth-child(2) {
@@ -701,7 +551,7 @@
     left: 12px;
     height: 2px;
     width: 30px;
-    background-color: red;
+    background-color: white;
 }
 
 #I:checked~.togglebox label span:nth-child(3) {
@@ -716,24 +566,6 @@
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 40px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -768,7 +600,7 @@
     left: 13px;
     width: 30px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #J:checked~.togglebox label span:nth-child(3) {
@@ -777,7 +609,7 @@
     left: 26px;
     width: 4px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #J:checked~.togglebox label span:nth-child(4) {
@@ -790,31 +622,13 @@
     left: 18px;
     width: 10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #K {
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 10px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -844,7 +658,7 @@
     top: 25px;
     left: -8px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #K:checked~.togglebox label span:nth-child(3) {
@@ -853,7 +667,7 @@
     width: 30px;
     left: 10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #K:checked~.togglebox label span:nth-child(4) {
@@ -862,31 +676,13 @@
     left: 10px;
     width: 32px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #L {
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 40px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -917,7 +713,7 @@
     left: 11px;
     height: 2px;
     width: 27px;
-    background-color: red;
+    background-color: white;
 }
 
 #L:checked~.togglebox label span:nth-child(2) {
@@ -925,7 +721,7 @@
     top: 25px;
     left: -8px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #L:checked~.togglebox label span:nth-child(3) {
@@ -944,24 +740,6 @@
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 10px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -988,7 +766,7 @@
     left: 0px;
     height: 2px;
     width: 35px;
-    background-color: red;
+    background-color: white;
 }
 
 #M:checked~.togglebox label span:nth-child(2) {
@@ -997,7 +775,7 @@
     left: 17px;
     height: 2px;
     width: 35px;
-    background-color: red;
+    background-color: white;
 }
 
 #M:checked~.togglebox label span:nth-child(3) {
@@ -1005,7 +783,7 @@
     top: 25px;
     left: 23px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #M:checked~.togglebox label span:nth-child(4) {
@@ -1013,31 +791,13 @@
     top: 25px;
     left: -12px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #N {
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 40px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -1071,7 +831,7 @@
     top: 25px;
     left: -10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #N:checked~.togglebox label span:nth-child(3) {
@@ -1079,7 +839,7 @@
     top: 25px;
     left: 20px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #N:checked~.togglebox label span:nth-child(4) {
@@ -1092,31 +852,13 @@
     left: 0px;
     width: 50px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #O {
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 40px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -1147,7 +889,7 @@
     left: 10px;
     width: 30px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #O:checked~.togglebox label span:nth-child(2) {
@@ -1155,7 +897,7 @@
     top: 25px;
     left: -10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #O:checked~.togglebox label span:nth-child(3) {
@@ -1163,7 +905,7 @@
     top: 25px;
     left: 20px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #O:checked~.togglebox label span:nth-child(4) {
@@ -1172,35 +914,101 @@
     width: 30px;
     left: 10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #O:checked~.togglebox label span:nth-child(5) {
    display: none;
 }
 
+#Ö {
+    display: none;
+}
+
+
+.togglebox label span:nth-child(1) {
+
+    top: 10px;
+}
+
+.togglebox label span:nth-child(2) {
+
+    top: 25px;
+}
+
+.togglebox label span:nth-child(3) {
+    top: 40px;
+}
+
+.togglebox label span:nth-child(4) {
+    height: 0;
+}
+
+.togglebox label span:nth-child(5) {
+    height: 0;
+}
+.togglebox label span:nth-child(6) {
+    height: 0;
+}
+
+
+#Ö:checked~.togglebox label span:nth-child(1) {
+    transform: rotate(0deg);
+    top: 15px;
+    left: 10px;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+}
+
+#Ö:checked~.togglebox label span:nth-child(2) {
+    transform: rotate(90deg);
+    top: 30px;
+    left: -5px;
+    height: 2px;
+    width: 30px;
+    background-color: white;
+}
+
+#Ö:checked~.togglebox label span:nth-child(3) {
+    transform: rotate(90deg);
+    top: 30px;
+    left: 25px;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+}
+
+#Ö:checked~.togglebox label span:nth-child(4) {
+    transform: rotate(0deg);
+    top: 45px;
+    width: 30px;
+    left: 10px;
+    height: 2px;
+    background-color: white;
+}
+
+#Ö:checked~.togglebox label span:nth-child(5) {
+    transform: rotate(90deg);
+    top: 5px;
+    left: 30px;
+    width: 5px;
+    height: 2px;
+    background-color: white;
+}
+#Ö:checked~.togglebox label span:nth-child(6) {
+    transform: rotate(90deg);
+    top: 5px;
+    left: 15px;
+    width: 5px;
+    height: 2px;
+    background-color: white;
+}
+
 #P {
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 40px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -1231,7 +1039,7 @@
     left: 10px;
     height: 2px;
     width: 30px;
-    background-color: red;
+    background-color: white;
 }
 
 #P:checked~.togglebox label span:nth-child(2) {
@@ -1239,7 +1047,7 @@
     top: 25px;
     left: -10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #P:checked~.togglebox label span:nth-child(3) {
@@ -1248,7 +1056,7 @@
     left: 26px;
     width: 25px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #P:checked~.togglebox label span:nth-child(4) {
@@ -1257,7 +1065,7 @@
     width: 30px;
     left: 10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #P:checked~.togglebox label span:nth-child(5) {
@@ -1268,24 +1076,6 @@
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 40px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -1316,7 +1106,7 @@
     width: 30px;
     left: 10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #Q:checked~.togglebox label span:nth-child(2) {
@@ -1325,7 +1115,7 @@
     width: 30px;
     left: -5px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #Q:checked~.togglebox label span:nth-child(3) {
@@ -1334,7 +1124,7 @@
     left: 25px;
     width: 30px;
     height: 2px;
-    background-color: red;
+    background-color:white;
 }
 
 #Q:checked~.togglebox label span:nth-child(4) {
@@ -1343,7 +1133,7 @@
     left: 10px;
     width: 30px;
     height: 2px;
-    background-color: red;
+    background-color:white;
 }
 
 #Q:checked~.togglebox label span:nth-child(5) {
@@ -1352,31 +1142,13 @@
     left: 28px;
     width: 17px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #R {
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 40px;
-    left: 15px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -1407,7 +1179,7 @@
     left: 10px;
     height: 2px;
     width: 30px;
-    background-color: red;
+    background-color: white;
 }
 
 #R:checked~.togglebox label span:nth-child(2) {
@@ -1415,7 +1187,7 @@
     top: 25px;
     left: -10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #R:checked~.togglebox label span:nth-child(3) {
@@ -1424,7 +1196,7 @@
     left: 26px;
     width: 25px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #R:checked~.togglebox label span:nth-child(4) {
@@ -1433,7 +1205,7 @@
     width: 30px;
     left: 10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #R:checked~.togglebox label span:nth-child(5) {
@@ -1442,31 +1214,13 @@
     width: 30px;
     left: 10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #S {
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 40px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -1497,7 +1251,7 @@
     left: 10px;
     height: 2px;
     width: 30px;
-    background-color: red;
+    background-color: white;
 }
 
 #S:checked~.togglebox label span:nth-child(2) {
@@ -1506,7 +1260,7 @@
     left: 0px;
     width: 20px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #S:checked~.togglebox label span:nth-child(3) {
@@ -1515,7 +1269,7 @@
     left: 30px;
     width: 20px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #S:checked~.togglebox label span:nth-child(4) {
@@ -1524,7 +1278,7 @@
     width: 30px;
     left: 10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #S:checked~.togglebox label span:nth-child(5) {
@@ -1533,31 +1287,13 @@
     width: 30px;
     left: 10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #T {
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 40px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -1588,7 +1324,7 @@
     left: 8px;
     height: 2px;
     width: 35px;
-    background-color: red;
+    background-color: white;
 }
 
 #T:checked~.togglebox label span:nth-child(2) {
@@ -1596,7 +1332,7 @@
     top: 25px;
     left: 5px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #T:checked~.togglebox label span:nth-child(3) {
@@ -1615,24 +1351,6 @@
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 40px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -1666,7 +1384,7 @@
     top: 25px;
     left: -10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #U:checked~.togglebox label span:nth-child(3) {
@@ -1674,7 +1392,7 @@
     top: 25px;
     left: 20px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #U:checked~.togglebox label span:nth-child(4) {
@@ -1683,7 +1401,7 @@
     width: 30px;
     left: 10px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #U:checked~.togglebox label span:nth-child(5) {
@@ -1694,24 +1412,6 @@
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 40px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -1745,7 +1445,7 @@
     top: 25px;
     left: -5px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #V:checked~.togglebox label span:nth-child(3) {
@@ -1753,7 +1453,7 @@
     top: 25px;
     left: 15px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #V:checked~.togglebox label span:nth-child(4) {
@@ -1768,24 +1468,6 @@
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    /* margin: 10px; */
-}
-
-.togglebox label span {
-    width: 10px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -1812,7 +1494,7 @@
     left: 23px;
     height: 2px;
     width: 25px;
-    background-color: red;
+    background-color: white;
 }
 
 #W:checked~.togglebox label span:nth-child(2) {
@@ -1821,7 +1503,7 @@
     left: 4px;
     height: 2px;
     width: 25px;
-    background-color: red;
+    background-color: white;
 }
 
 #W:checked~.togglebox label span:nth-child(3) {
@@ -1829,7 +1511,7 @@
     top: 25px;
     left: 25px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #W:checked~.togglebox label span:nth-child(4) {
@@ -1837,31 +1519,13 @@
     top: 25px;
     left: -14px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #X {
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    margin: 10px;
-}
-
-.togglebox label span {
-    width: 40px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -1882,7 +1546,7 @@
     transform: rotate(45deg);
     top: 25px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #X:checked~.togglebox label span:nth-child(2) {
@@ -1893,31 +1557,13 @@
     transform: rotate(-45deg);
     top: 25px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 }
 
 #Y {
     display: none;
 }
 
-.togglebox label {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
-    position: relative;
-    display: block;
-    margin: 10px;
-}
-
-.togglebox label span {
-    width: 40px;
-    left: 5px;
-    height: 1px;
-    position: absolute;
-    background-color: black;
-    transition: transform 1s;
-}
 
 .togglebox label span:nth-child(1) {
 
@@ -1939,7 +1585,7 @@
     top: 19px;
     width: 22px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 
 
 }
@@ -1949,7 +1595,7 @@
     top: 25px;
     display: none;
     height: 2px;
-    background-color: red;
+    background-color: white;
 
 
 }
@@ -1958,7 +1604,7 @@
     transform: rotate(-45deg);
     top: 25px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 
 }
 
@@ -1970,7 +1616,7 @@
     width: 50px;
     height: 50px;
     border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.493);
+    background-color:black;
     position: relative;
     display: block;
     margin: 10px;
@@ -1981,7 +1627,7 @@
     left: 5px;
     height: 1px;
     position: absolute;
-    background-color: black;
+    background-color: white;
     transition: transform 1s;
 }
 
@@ -2005,7 +1651,7 @@
     top: 11px;
     width: 40px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 
 
 
@@ -2017,7 +1663,7 @@
     transform: rotate(-37deg);
     width: 47px;
     height: 2px;
-    background-color: red;
+    background-color: white;
     left: 0px;
 
 
@@ -2027,7 +1673,7 @@
     transform: rotate(0deg);
     bottom: 11px;
     height: 2px;
-    background-color: red;
+    background-color: white;
 
 
 
